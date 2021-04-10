@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D971B9B26205B89007D34FC /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D971B9926205B89007D34FC /* libmp3lame.a */; };
+		4DFE862426204AA6009903DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE862326204AA6009903DC /* AppDelegate.m */; };
+		4DFE862A26204AA6009903DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE862926204AA6009903DC /* ViewController.m */; };
+		4DFE862D26204AA6009903DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFE862B26204AA6009903DC /* Main.storyboard */; };
+		4DFE862F26204AA7009903DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFE862E26204AA7009903DC /* Assets.xcassets */; };
+		4DFE863226204AA7009903DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DFE863026204AA7009903DC /* LaunchScreen.storyboard */; };
+		4DFE863526204AA7009903DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE863426204AA7009903DC /* main.m */; };
+		4DFE864F26205375009903DC /* PPXTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE864B26205375009903DC /* PPXTimer.m */; };
+		4DFE865026205375009903DC /* AudioPlayerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DFE864E26205375009903DC /* AudioPlayerService.m */; };
+		740A4F826587DF823AB95D8E /* Pods_RecorderAndPlayerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE31382ADB7D5A16CA865C0 /* Pods_RecorderAndPlayerDemo.framework */; };
+		F250267C2620957500ACCEFF /* TPAudioRecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F250267B2620957500ACCEFF /* TPAudioRecoder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B7225FEB355D4084126F61B /* Pods-RecorderAndPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecorderAndPlayerDemo.release.xcconfig"; path = "Target Support Files/Pods-RecorderAndPlayerDemo/Pods-RecorderAndPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4D971B9926205B89007D34FC /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		4D971B9A26205B89007D34FC /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		4DFE861F26204AA6009903DC /* RecorderAndPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecorderAndPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DFE862226204AA6009903DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DFE862326204AA6009903DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DFE862826204AA6009903DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DFE862926204AA6009903DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DFE862C26204AA6009903DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DFE862E26204AA7009903DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DFE863126204AA7009903DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DFE863326204AA7009903DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFE863426204AA7009903DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DFE864A26205375009903DC /* AudioPlayerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayerService.h; sourceTree = "<group>"; };
+		4DFE864B26205375009903DC /* PPXTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPXTimer.m; sourceTree = "<group>"; };
+		4DFE864D26205375009903DC /* PPXTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPXTimer.h; sourceTree = "<group>"; };
+		4DFE864E26205375009903DC /* AudioPlayerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayerService.m; sourceTree = "<group>"; };
+		90DF9550DFFBA4F8365B8AD5 /* Pods-RecorderAndPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecorderAndPlayerDemo.debug.xcconfig"; path = "Target Support Files/Pods-RecorderAndPlayerDemo/Pods-RecorderAndPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BCE31382ADB7D5A16CA865C0 /* Pods_RecorderAndPlayerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecorderAndPlayerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F250267A2620957500ACCEFF /* TPAudioRecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPAudioRecoder.h; sourceTree = "<group>"; };
+		F250267B2620957500ACCEFF /* TPAudioRecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TPAudioRecoder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DFE861C26204AA6009903DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740A4F826587DF823AB95D8E /* Pods_RecorderAndPlayerDemo.framework in Frameworks */,
+				4D971B9B26205B89007D34FC /* libmp3lame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D971B9826205B89007D34FC /* cafToMp3 */ = {
+			isa = PBXGroup;
+			children = (
+				4D971B9926205B89007D34FC /* libmp3lame.a */,
+				4D971B9A26205B89007D34FC /* lame.h */,
+			);
+			path = cafToMp3;
+			sourceTree = "<group>";
+		};
+		4DFE861626204AA6009903DC = {
+			isa = PBXGroup;
+			children = (
+				4DFE862126204AA6009903DC /* RecorderAndPlayerDemo */,
+				4DFE862026204AA6009903DC /* Products */,
+				C47C02E2DD5C1DC9887A6648 /* Pods */,
+				6DD9BD5C57BA74A1D61724ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DFE862026204AA6009903DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DFE861F26204AA6009903DC /* RecorderAndPlayerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DFE862126204AA6009903DC /* RecorderAndPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4DFE863F26204AFC009903DC /* 播放 */,
+				4DFE863E26204AF3009903DC /* 录音 */,
+				4DFE862226204AA6009903DC /* AppDelegate.h */,
+				4DFE862326204AA6009903DC /* AppDelegate.m */,
+				4DFE862826204AA6009903DC /* ViewController.h */,
+				4DFE862926204AA6009903DC /* ViewController.m */,
+				4DFE862B26204AA6009903DC /* Main.storyboard */,
+				4DFE862E26204AA7009903DC /* Assets.xcassets */,
+				4DFE863026204AA7009903DC /* LaunchScreen.storyboard */,
+				4DFE863326204AA7009903DC /* Info.plist */,
+				4DFE863426204AA7009903DC /* main.m */,
+			);
+			path = RecorderAndPlayerDemo;
+			sourceTree = "<group>";
+		};
+		4DFE863E26204AF3009903DC /* 录音 */ = {
+			isa = PBXGroup;
+			children = (
+				4D971B9826205B89007D34FC /* cafToMp3 */,
+				F250267A2620957500ACCEFF /* TPAudioRecoder.h */,
+				F250267B2620957500ACCEFF /* TPAudioRecoder.m */,
+			);
+			path = "录音";
+			sourceTree = "<group>";
+		};
+		4DFE863F26204AFC009903DC /* 播放 */ = {
+			isa = PBXGroup;
+			children = (
+				4DFE864926205375009903DC /* AudioPlayerService */,
+			);
+			path = "播放";
+			sourceTree = "<group>";
+		};
+		4DFE864926205375009903DC /* AudioPlayerService */ = {
+			isa = PBXGroup;
+			children = (
+				4DFE864A26205375009903DC /* AudioPlayerService.h */,
+				4DFE864E26205375009903DC /* AudioPlayerService.m */,
+				4DFE864D26205375009903DC /* PPXTimer.h */,
+				4DFE864B26205375009903DC /* PPXTimer.m */,
+			);
+			path = AudioPlayerService;
+			sourceTree = "<group>";
+		};
+		6DD9BD5C57BA74A1D61724ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCE31382ADB7D5A16CA865C0 /* Pods_RecorderAndPlayerDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C47C02E2DD5C1DC9887A6648 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90DF9550DFFBA4F8365B8AD5 /* Pods-RecorderAndPlayerDemo.debug.xcconfig */,
+				2B7225FEB355D4084126F61B /* Pods-RecorderAndPlayerDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DFE861E26204AA6009903DC /* RecorderAndPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DFE863826204AA7009903DC /* Build configuration list for PBXNativeTarget "RecorderAndPlayerDemo" */;
+			buildPhases = (
+				EACB8329FE591B0E2B4BFCD7 /* [CP] Check Pods Manifest.lock */,
+				4DFE861B26204AA6009903DC /* Sources */,
+				4DFE861C26204AA6009903DC /* Frameworks */,
+				4DFE861D26204AA6009903DC /* Resources */,
+				21609984C2E330C6D9D44622 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecorderAndPlayerDemo;
+			productName = RecorderAndPlayerDemo;
+			productReference = 4DFE861F26204AA6009903DC /* RecorderAndPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DFE861726204AA6009903DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4DFE861E26204AA6009903DC = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 4DFE861A26204AA6009903DC /* Build configuration list for PBXProject "RecorderAndPlayerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DFE861626204AA6009903DC;
+			productRefGroup = 4DFE862026204AA6009903DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DFE861E26204AA6009903DC /* RecorderAndPlayerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DFE861D26204AA6009903DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFE863226204AA7009903DC /* LaunchScreen.storyboard in Resources */,
+				4DFE862F26204AA7009903DC /* Assets.xcassets in Resources */,
+				4DFE862D26204AA6009903DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21609984C2E330C6D9D44622 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecorderAndPlayerDemo/Pods-RecorderAndPlayerDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RecorderAndPlayerDemo/Pods-RecorderAndPlayerDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RecorderAndPlayerDemo/Pods-RecorderAndPlayerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EACB8329FE591B0E2B4BFCD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RecorderAndPlayerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DFE861B26204AA6009903DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFE862A26204AA6009903DC /* ViewController.m in Sources */,
+				F250267C2620957500ACCEFF /* TPAudioRecoder.m in Sources */,
+				4DFE862426204AA6009903DC /* AppDelegate.m in Sources */,
+				4DFE865026205375009903DC /* AudioPlayerService.m in Sources */,
+				4DFE864F26205375009903DC /* PPXTimer.m in Sources */,
+				4DFE863526204AA7009903DC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DFE862B26204AA6009903DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DFE862C26204AA6009903DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DFE863026204AA7009903DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DFE863126204AA7009903DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DFE863626204AA7009903DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4DFE863726204AA7009903DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DFE863926204AA7009903DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90DF9550DFFBA4F8365B8AD5 /* Pods-RecorderAndPlayerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LS892WQPCW;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RecorderAndPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RecorderAndPlayerDemo/播放/caf转mp3",
+					"$(PROJECT_DIR)/RecorderAndPlayerDemo/录音/cafToMp3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ztp.-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DFE863A26204AA7009903DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7225FEB355D4084126F61B /* Pods-RecorderAndPlayerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LS892WQPCW;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RecorderAndPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RecorderAndPlayerDemo/播放/caf转mp3",
+					"$(PROJECT_DIR)/RecorderAndPlayerDemo/录音/cafToMp3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ztp.-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DFE861A26204AA6009903DC /* Build configuration list for PBXProject "RecorderAndPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFE863626204AA7009903DC /* Debug */,
+				4DFE863726204AA7009903DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DFE863826204AA7009903DC /* Build configuration list for PBXNativeTarget "RecorderAndPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DFE863926204AA7009903DC /* Debug */,
+				4DFE863A26204AA7009903DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DFE861726204AA6009903DC /* Project object */;
+}
